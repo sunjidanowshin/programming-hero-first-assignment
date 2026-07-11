@@ -20,15 +20,27 @@ align-items: center;
 width:100%;
 height: 100vh;
 margin: 30px 0px;
-gap: 200px;
+gap: 100px;
 text-align: center;
 color: white;
-background-image: url(./images/banner.jpg);
-background-image: linear-gradient( );
+background-image :linear-gradient(
+        rgba(0,0,0,0.30),
+        rgba(0,0,0,0.70)
+    ),
+    linear-gradient(
+            90deg,
+            rgba(0,0,0,0.42),
+            rgba(0,0,0,0.87)
+        ), 
+    url(./images/banner.jpg);
+
 background-size: cover;
 background-repeat: no-repeat;
-
 }
+
+
+
+
 img {
 height: 30px;
 width: 100px;
@@ -164,6 +176,7 @@ margin-left: 15px;
     display: flex;
     flex-direction: column;
     list-style: disc;
+    
      padding: 10px 0px;
 }
 .features-active{
@@ -171,6 +184,7 @@ margin-left: 15px;
     flex-direction: column;
     color: white;
     list-style: disc;
+
     padding: 10px 0px;
     
 }
@@ -231,4 +245,70 @@ background-color: rgba(228, 228, 224, 0.863);
     color:rgb(5, 60, 142) ;
     cursor: pointer;
     border: 1px solid black;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(15, 14, 14);
+    height: 100px;
+    color: rgb(201, 198, 198);
+    padding:50px 10px;
+    margin: 0px;
+}
+.newsletter {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+
+height: 500px;
+width:100%;
+font-weight: bold;
+}
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+    height: 50px;
+    width:350px;
+
+}
+#subsbtn {
+    background-color: rgba(228, 228, 224, 0.863);
+    color:rgb(43, 106, 225) ;
+    cursor: pointer;
+    border: 1px solid rgb(43, 106, 225);
+    height: 70px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 35px auto 0; 
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; 
+}
+#subsbtn:hover{
+background-color:rgb(43, 106, 225);
+    color:rgb(240, 241, 244) ;
+    cursor: pointer;
+    border: 1px solid rgb(43, 106, 225);
+    width: 500px;
+    height: 70px;
+    border-radius: 10px;
+    margin: 35px auto 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+.email{
+     background-color: rgba(228, 228, 224, 0.863);
+    color:rgb(43, 106, 225) ;
+    cursor: pointer;
+    border: 1px solid rgb(43, 106, 225);
+    height: 70px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 35px auto 0; 
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center; 
 }
