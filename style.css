@@ -88,18 +88,18 @@ color: black;
 
 .container {
     display:grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px 20px;
+    grid-template-columns: repeat(2, .3fr);
 
-justify-items: center;
+justify-content: space-evenly;
   
 
 }
 .box {
     border: 1px solid grey;
-    width: 500px;
-    height: 350px;
+    width: 700px;
+    height: 500px;
     border-radius: 5px;
+    margin: 20px 20px;
 
 }
 
@@ -113,13 +113,13 @@ margin: 0px;
 }
 
 .images{
-    height: 220px;
+    height: 320px;
     width: 100%;
 
 
 }
 .section {
-font-size: smaller;
+font-size: small;
 font-weight: bold;
 color: rgb(43, 106, 225);
 margin-left: 15px;
@@ -135,4 +135,100 @@ margin-left: 15px;
     font-size: small;
     color: dimgray;
     margin-left: 15px;
+
+}
+
+.pricing{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+
+}
+.card {
+    width: 300px;
+    height: 500px;
+    padding: 30px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.card-active{
+    background-color: rgb(1, 1, 20);
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 30px;
+    width: 350px;
+
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    list-style: disc;
+     padding: 10px 0px;
+}
+.features-active{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    list-style: disc;
+    padding: 10px 0px;
+    
+}
+#stndbtn{ 
+    background-color: rgba(228, 228, 224, 0.863);
+    color:rgb(43, 106, 225) ;
+    cursor: pointer;
+    border: 1px solid rgb(43, 106, 225);
+    height: 70px;
+    width: 280px;
+    border-radius: 10px;
+    margin: 35px auto 0; 
+    font-size: 20px;
+    font-weight: bold;
+
+}
+#stndbtn:hover{
+    background-color:rgb(43, 106, 225);
+    color:rgb(249, 249, 250) ;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#cntbtn:hover{ 
+    background-color:rgb(43, 106, 225);
+    color:rgb(240, 241, 244) ;
+    cursor: pointer;
+    border: 1px solid rgb(43, 106, 225);
+}
+#cntbtn{
+    background-color: rgba(228, 228, 224, 0.863);
+    color:rgb(0, 4, 10) ;
+    cursor: pointer;
+    border: 1px solid black;
+    height: 70px;
+    width: 280px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 35px auto 0;
+}
+
+#probtn{
+    background-color:rgb(43, 106, 225);
+    color:rgb(240, 241, 244) ;
+    cursor: pointer;
+    border: 1px solid rgb(43, 106, 225);
+    width: 280px;
+    height: 70px;
+    border-radius: 10px;
+    margin: 35px auto 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+#probtn:hover{
+background-color: rgba(228, 228, 224, 0.863);
+    color:rgb(5, 60, 142) ;
+    cursor: pointer;
+    border: 1px solid black;
 }
