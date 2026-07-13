@@ -4,7 +4,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 }
 a{
     text-decoration: none;
-    color: inherit;
+    color: rgb(246, 244, 244);
 }
 
 nav {
@@ -13,6 +13,7 @@ nav {
     justify-content: space-between;
     padding:  10px 50px;
     font-size: small;
+    color: dimgray;
 }
 
 .hero-parent{
@@ -253,26 +254,34 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color: rgb(15, 14, 14);
-    height: 100px;
-    color: rgb(201, 198, 198);
-    padding:50px 10px;
-    margin: 0px;
+    height: 80px;
+    color: rgb(124, 122, 122);
+    padding:40px 20px;
+   
+    width: 100%;
+
 }
 .newsletter {
 display: flex;
 flex-direction: column;
+justify-self: center;
 align-items: center;
 text-align: center;
-
-height: 500px;
+height:300px;
 width:100%;
-font-weight: bold;
+background-color: aliceblue;
+border-radius: 10px;
+border: 1px solid rgb(179, 177, 177);
+margin: 10px 10px;
+padding: 30px 0px 0px 0px;
+
 }
 .input {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 100px;
+    text-align: center;
+    gap: 10px;
     height: 50px;
     width:350px;
 
@@ -314,4 +323,80 @@ background-color:rgb(43, 106, 225);
     font-size: 20px;
     font-weight: bold;
     text-align: center; 
+}
+.feedback{
+    display: flex;
+flex-direction: column;
+align-items: center;
+margin: 70px;
+padding: 30px;
+gap: 10px;
+}
+.people{
+    display: flex;
+    flex-direction: row;
+    gap: 5px ;
+}
+.person{
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 10px;
+
+    background-color: aliceblue;
+    margin: 50px 20px;
+    padding: 30px;
+    
+
+}
+.prof{
+    font-weight: normal;
+    color: cornflowerblue;
+}
+.country{
+
+color: gray;
+}
+#previous{
+text-align: center;
+font-weight: bold;
+color: dimgrey;
+margin: 350px 40px;
+background-color: aliceblue;
+height: 30px;
+width: 180px;
+border-radius: 5px;
+border-color: rgb(176, 177, 177);
+
+
+}
+#previous:hover {
+    height: 30px;
+    width: 180px;
+    background-color: rgb(43, 106, 225);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin: 350px 40px;
+}
+.propic{
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    margin: 0px 70px;
+}
+#footerbtn{
+    background-color:rgb(15, 14, 14); 
+    color: rgb(124, 122, 122);
+    background: transparent;
+    cursor: pointer;
+}
+#footerbtn:hover{
+    background-color:rgb(15, 14, 14); 
+    color: rgb(251, 249, 249);
+    background: transparent;
+    cursor: pointer;
+}
+.sm{
+    height: 50px;
+    width: 50px;
 }
