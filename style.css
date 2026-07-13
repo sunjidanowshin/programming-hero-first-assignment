@@ -27,15 +27,13 @@ margin: 30px 0px;
 gap: 100px;
 text-align: center;
 color: white;
-background-image :linear-gradient(
+background-image :
+
+linear-gradient(
         rgba(0,0,0,0.30),
         rgba(0,0,0,0.70)
     ),
-    linear-gradient(
-            90deg,
-            rgba(0,0,0,0.42),
-            rgba(0,0,0,0.87)
-        ), 
+    
     url(./images/banner.jpg);
 
 background-size: cover;
