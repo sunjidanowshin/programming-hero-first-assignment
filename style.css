@@ -4,7 +4,7 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 }
 a{
     text-decoration: none;
-    color: rgb(246, 244, 244);
+    color: inherit;
 }
 
 nav {
@@ -80,8 +80,8 @@ gap: 10px;
 
 }
 #navbtn:hover {
-       background-color: rgba(228, 228, 224, 0.863);
-    color:rgb(43, 106, 225) ;
+       background-color: rgba(223, 223, 220, 0.863);
+    color:rgb(43, 106, 225)!important ;
     cursor: pointer;
     border: 1px solid black;
 }
@@ -382,18 +382,8 @@ border-color: rgb(176, 177, 177);
     border-radius: 10px;
     margin: 0px 70px;
 }
-#footerbtn{
-    background-color:rgb(15, 14, 14); 
-    color: rgb(124, 122, 122);
-    background: transparent;
-    cursor: pointer;
-}
-#footerbtn:hover{
-    background-color:rgb(15, 14, 14); 
-    color: rgb(251, 249, 249);
-    background: transparent;
-    cursor: pointer;
-}
+
+
 .sm{
     height: 50px;
     width: 50px;
