@@ -251,12 +251,12 @@ background-color: rgba(228, 228, 224, 0.863);
 footer{
     display: flex;
     justify-content: space-between;
-    background-color: rgb(15, 14, 14);
+    background-color: rgb(6, 30, 53);
     height: 80px;
     color: rgb(124, 122, 122);
-    padding:40px 20px;
+    padding:40px 80px;
+   width: 100%
    
-    width: 100%;
 
 }
 .newsletter {
@@ -379,7 +379,7 @@ border-color: rgb(176, 177, 177);
 .propic{
     height: 100px;
     width: 100px;
-    border-radius: 10px;
+    border-radius: 30px;
     margin: 0px 70px;
 }
 
